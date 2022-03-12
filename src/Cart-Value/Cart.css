@@ -1,0 +1,92 @@
+.cart-main {
+  background-color: white;
+  max-width: 30rem;
+  margin: auto;
+  border-bottom: 1px solid black;
+  overflow: hidden;
+
+}
+
+.cart-main li{
+    list-style: none;
+    padding-left: 25px;
+    padding-bottom: 1px;
+    padding-top: 2px;
+}
+.cart-card{
+    background-color:white;
+    max-width: 35rem;
+    margin: auto;
+    border-radius: 14px;
+    overflow: hidden;
+    overflow-y: scroll;
+    max-height: 20rem;
+    overflow-x: hidden;
+    
+}
+
+.cart-card::-webkit-scrollbar {
+    display: none;
+  }
+
+.cart-b{
+    float: right;
+    transform: translateY(-2rem);
+    margin: auto;
+    padding: 4px;
+}
+
+.cart-qty{
+    transform: translateX(5rem) translateY(-2rem);
+}
+
+.b-min{
+    margin-right: 5px;
+
+}
+
+.b-min:hover{
+    background-color:red;
+}
+
+.cart-total li{
+    list-style: none;
+    padding-left: 45px;
+    font-weight: bold;
+}
+
+.cart-total-amount{
+    float: right;
+    transform: translateX(-3rem) translateY(-1.5rem);
+    color: rgb(95, 190, 0);
+}
+
+.cart-card-b{
+    float: right;
+    margin-top: 15px;
+    transform: translateX(4rem) ;
+    padding-bottom: 5px;
+}
+
+.cart-card-b button{
+    border-radius: 14px;;
+}
+
+.close{
+    margin-right: 3px;
+}
+
+.close:hover{
+    background-color: brown;
+}
+.order:hover{
+    background-color: brown;
+}
+
+.food-item{
+    font-weight: bold;
+}
+
+.food-price{
+    color: rgb(138, 117, 0);
+}

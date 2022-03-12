@@ -1,0 +1,15 @@
+.meals-listcard{
+   background-color: aliceblue;
+   max-width: 60rem;
+   margin: auto;
+   border-radius: 14px;
+   padding-bottom: 15px;
+   padding-top: 15px;
+   margin-top: 20px;
+}
+p{
+   font-size: larger;
+   color: green;
+   text-align: center;
+   
+}
